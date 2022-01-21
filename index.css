@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 250px;
+  margin: 20px;
+  font-family: monospace, sans-serif;
+}
+
+button {
+  font-family: monospace, sans-serif;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.btn {
+  width: 80%;
+  height: 30px;
+  background-color: #004aad;
+  color: #fff;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-list {
+  display: none;
+}
+
+.view-list > h1 {
+  font-size: 18px;
+  text-align: center;
+  margin: 15px;
+}
+
+.view-list > h1:after {
+  content: '';
+  width: 70%;
+  padding: 0.5px 0px;
+  background-color: #000;
+  display: block;
+  margin: 0 auto;
+}
+
+.options {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.options button {
+  border: none;
+  font-size: 12px;
+  color: #004aad;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+}
+
+.options button:hover {
+  text-decoration: underline;
+}
+
+.blog {
+  list-style-type: none;
+  width: 100%;
+  display: inline-block;
+  background-color: #eee;
+  padding: 10px 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.blog-list > .msg {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #eee;
+  padding: 10px 2px;
+}
+
+.blog-img {
+  width: 15%;
+}
+
+.content {
+  display: inline-block;
+  width: 85%;
+  vertical-align: top;
+  padding: 0 8px;
+}
+
+.content > p {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.content > button {
+  border: none;
+  font-size: 10px;
+  color: #fa0202;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+}
+
+.content > button:hover {
+  text-decoration: underline;
+}

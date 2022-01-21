@@ -1,0 +1,25 @@
+{
+  "name": "Blog Posts Save",
+  "description": "An extension to save the blog posts from multiple domains, and can mark them as read.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./assets/blog-posts-save-icon-16.png",
+    "32": "./assets/blog-posts-save-icon-32.png",
+    "48": "./assets/blog-posts-save-icon-48.png",
+    "128": "./assets/blog-posts-save-icon-128.png"
+  },
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "./assets/blog-posts-save-icon-16.png",
+      "32": "./assets/blog-posts-save-icon-32.png",
+      "48": "./assets/blog-posts-save-icon-48.png",
+      "128": "./assets/blog-posts-save-icon-128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
