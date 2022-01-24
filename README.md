@@ -22,4 +22,4 @@ To install, download the zip file and extract it. Turn on developer mode and cli
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](LICENSE.md)
+[MIT](LICENSE)
