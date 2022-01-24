@@ -7,7 +7,7 @@ A Chrome plugin that allows us to bookmark blogs or other links from various pag
 
 Note: It's not yet published in Chrome Store.
 
-To install, download the zip file and extract it. Turn on developer mode and click on load packed under the Chrome extensions menu, then select the path containing our unzipped package.
+To install, download the zip file and extract it. Turn on developer mode and click on load unpacked under the Chrome extensions menu, then select the path containing our unzipped package.
 
 ![ss1](https://user-images.githubusercontent.com/22185174/150726392-3445382b-aa7d-4640-b655-d6b37fce9fb1.JPG)
 
